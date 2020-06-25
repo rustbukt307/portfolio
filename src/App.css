@@ -1,38 +1,34 @@
-.App {
+body {
+  background-image: url(components/images/wood.jpg);
   text-align: center;
+  color: rgb(135, 129, 129);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.projects {
+  margin: 20px auto;
+  padding: 20px;
+  background: rgb(0, 0, 0, 0.5);
+  max-width: 65%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  max-width: 50%;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 650px) {
+  section {
+    max-width: 500px;
   }
 }
