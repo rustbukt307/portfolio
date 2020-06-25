@@ -23,23 +23,34 @@ body {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 52px;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(187, 12, 12);
+}
+
+h3{
+  font-size: 28px;
+  font-style: italic;
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .links {
+  font-size: 30px;
   text-align: right;
   padding: 10px;
 }
 
 a {
-  color: red;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(187, 12, 12);
   text-decoration: none;
   padding: 5px;
 }
 
 a:hover {
   color: black;
-  background-color: red;
+  background-color: rgb(187, 12, 12);
 }
 
 p {

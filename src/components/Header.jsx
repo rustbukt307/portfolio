@@ -6,7 +6,8 @@ class Header extends Component {
     return (
       <header className="header-main">
         <div className='name'>
-          <h1><Link to='/'>Tom Moliterno</Link></h1>
+          {/* <Link to='/'>Tom Moliterno</Link> */}
+          <h1>Tom Moliterno</h1>
           <h3 className='title'>Software Developer</h3>
         </div>
         

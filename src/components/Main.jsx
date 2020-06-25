@@ -4,7 +4,7 @@ class Main extends Component {
   render() {
     return (
       <div className="body-main">
-        <p>Welcome! My name's Tom and I'm a software developer in the greater NYC area. I have studied various programming languages including HTML, CSS, JavaScript, SQL, and Ruby as well as worked in the React, Express, and Ruby on Rails frameworks. I have spent eight years in the automotive industry working in various roles which include sales, business development, tech support, and product training. I strive to bring that same drive, determination, and attention to detail to the exciting world of software development!</p>
+        <p>Welcome! My name's Tom and I'm a software developer in the greater NYC area. I'm experienced in various programming languages including HTML, CSS, JavaScript, SQL, and Ruby as well as worked in the React, Express, and Ruby on Rails frameworks. I have spent eight years in the automotive industry working in various roles which include sales, business development, tech support, and product training. I strive to bring that same drive, determination, and attention to detail to the exciting world of software development!</p>
 
         <h3>Below you will find some of my work, please check it out!</h3>
         
