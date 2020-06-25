@@ -2,7 +2,7 @@
 
 body {
   background-image: url(components/images/wood.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   text-align: center;
   color: rgb(135, 129, 129);
 }
