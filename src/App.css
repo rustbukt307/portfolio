@@ -85,7 +85,9 @@ img:hover {
 /* ============= Footer/Media Queries ============= */
 
 footer {
-  font-size: 12px;
+  font-size: 22px;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(187, 12, 12);
   padding: 20px;
   left: 0;
   bottom: 0;
