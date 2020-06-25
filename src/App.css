@@ -1,9 +1,26 @@
+/* ================== Body/Main ================== */
+
 body {
   background-image: url(components/images/wood.jpg);
   background-size: cover;
   text-align: center;
   color: rgb(135, 129, 129);
 }
+
+a {
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(187, 12, 12);
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+  color: black;
+  background-color: rgb(187, 12, 12);
+}
+
+/* ==================== Header ==================== */
 
 .header-main {
   padding: 20px;
@@ -23,7 +40,7 @@ body {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 52px !important;
   font-family: 'Amatic SC', cursive;
   color: rgb(187, 12, 12);
 }
@@ -40,18 +57,7 @@ h3{
   padding: 10px;
 }
 
-a {
-  font-size: 30px;
-  font-family: 'Amatic SC', cursive;
-  color: rgb(187, 12, 12);
-  text-decoration: none;
-  padding: 5px;
-}
-
-a:hover {
-  color: black;
-  background-color: rgb(187, 12, 12);
-}
+/* ===================== Main ===================== */
 
 p {
   text-align: left;
@@ -67,9 +73,16 @@ p {
 }
 
 img {
-  max-width: 50%;
+  max-width: 65%;
   padding: 20px;
 }
+
+img:hover {
+  max-width: 90%;
+  padding: 20px;
+}
+
+/* ============= Footer/Media Queries ============= */
 
 footer {
   font-size: 12px;
